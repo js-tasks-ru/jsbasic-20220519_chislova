@@ -1,4 +1,5 @@
 function initCarousel() {
+  
   let leftBtn = document.querySelector('.carousel__arrow_left');
   let rightBtn = document.querySelector('.carousel__arrow_right');
 
@@ -53,4 +54,3 @@ function initCarousel() {
     checkAndMove ();
   })
 }
-
